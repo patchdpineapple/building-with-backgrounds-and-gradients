@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* variables */
+:root {
+  --anchor: #326891;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, "Arial", sans-serif;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--anchor);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* STYLES */
+
+.root > main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: steelblue;
+    width: 100%;
+}
+
+.nav-main {
+    margin-top: 90px;
+    border-radius: 5px;
+    border: 1px solid #6d6d6d;
+    width: 980px;
+    height: 36px;
+    background: linear-gradient(#5e5e5e,#7d7d7d );
+}
+
+.main-text {
+    margin-top: 70px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text a {
+    display: inline-block;
+    color: white;
+}
+
+.promos {
+    background: greenyellow;
+    width: 100%;
+    height: 200px;
+}
+
+.promos ul {
+    display: flex;
+}
+.promos li {
+    min-width: 25%;
+    height: 200px;
+    border: 1px solid gray;
+    background: hotpink;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div {
+    background: burlywood;
+    border: 1px solid gray; 
+    width: 980px;
+    height: 120px;
+}
